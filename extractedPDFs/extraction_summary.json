@@ -1,0 +1,16 @@
+{
+  "total_files": 8,
+  "successful_extractions": 8,
+  "total_chunks": 22,
+  "total_characters": 14134,
+  "files_processed": [
+    "CelcomDigi_Postpaid_5G_Family_Plans.pdf",
+    "CelcomDigi_Postpaid_Plans_Detailed.pdf",
+    "CelcomDigi_Prepaid_5G_Biru_Passes.pdf",
+    "CelcomDigi_Prepaid_5G_Biru_Plan.pdf",
+    "CelcomDigi_Prepaid_5G_Kuning_Details.pdf",
+    "Juara_Keren_5G_Detailed_Package.pdf",
+    "Pakej_Rahmah_Siswa_Campaign.pdf",
+    "Raja_Kombo_5G.pdf"
+  ]
+}
