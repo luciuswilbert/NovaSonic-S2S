@@ -120,9 +120,10 @@ class SimpleNovaSonic:
         '''
         await self.send_event(text_content_start)
         
-        system_prompt = "You are a friendly assistant. The user and you will engage in a spoken dialog " \
-            "exchanging the transcripts of a natural real-time conversation. Keep your responses short, " \
-            "generally two or three sentences for chatty scenarios."
+        context = "--- Page 1 --- CelcomDigi Postpaid 5G Family & GadgetSIM Plan CelcomDigi Postpaid 5G Family SE - Monthly Commitment: RM30 - Data: 15GB (5G/4G) - Calls: Unlimited - SMS: RM0.20/SMS - Video Call: RM0.20/min - Features: Essential speed; available with CelcomDigi Postpaid 60 SE and above. CelcomDigi Postpaid 5G Family - Monthly Commitment: RM40 - Data: 90GB (5G/4G) - Calls: Not applicable - SMS: Not applicable - Video Call: Not applicable - Features: Essential speed; available with CelcomDigi ONE plans. CelcomDigi Postpaid 5G Family Plus - Monthly Commitment: RM50 - Data: Unlimited (5G/4G) - Calls: Not applicable - SMS: Not applicable - Video Call: Not applicable - Features: Advance speed; available with CelcomDigi Postpaid 120 and above. CelcomDigi Postpaid 5G Gadget SIM - Monthly Commitment: RM30 --- Page 2 --- - Data: 30GB (5G/4G) - Calls: Not applicable - SMS: Not applicable - Video Call: Not applicable - Features: Essential speed; available with CelcomDigi Postpaid 80 and above. CelcomDigi Postpaid 5G Gadget SIM Plus - Monthly Commitment: RM50 - Data: 300GB (5G/4G) - Calls: Not applicable - SMS: Not applicable - Video Call: Not applicable - Features: Advance speed; available with CelcomDigi ONE Pro/Ultra plans."
+
+        system_prompt = system_prompt = f"You are a CelcomDigi Call Center Bot. The user and you will engage in a spoken dialog exchanging the transcripts of a natural real-time conversation. Be helpful, always refer to the {context}"
+
         
 
 
